@@ -1,0 +1,279 @@
+.mar-20 {
+  margin-top: 20px;
+}
+
+.mar-30 {
+  margin-top: 30px;
+}
+
+.mar-40 {
+  margin-top: 40px;
+}
+
+.mar-50 {
+  margin-top: 50px;
+}
+
+.mar-100 {
+  margin-top: 100px;
+}
+
+.mar-150 {
+  margin-top: 200px;
+}
+
+.p-lr {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.main-bg {
+  background-image: url(/public/images/main-bg.png);
+  position: relative;
+  min-height: auto;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  height: 100vh;
+}
+
+.left-box {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 100px;
+  text-align: center;
+  border-radius: 21px 0px 0px 21px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-box img {
+  max-width: 100%;
+}
+
+.right-box {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 70px 40px 47px 40px;
+  border-radius: 0px 21px 21px 0px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-box img {
+  max-width: 100%;
+}
+
+.right-box h2 {
+  font-size: 29.59px;
+  color: #7981c8;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.right-box p {
+  font-size: 18.2px;
+  margin-top: 10px;
+  position: relative;
+  color: #000000;
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.right-box h4 {
+  font-size: 15.2px;
+  margin-top: 10px;
+  position: relative;
+  color: #000000;
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.right-box h4 span a {
+  color: #2e2e8f;
+}
+
+.right-box h4 span:hover {
+  color: #2e2e8f;
+}
+
+.checkbox-taxt {
+  font-size: 15;
+  color: #747dc4 !important;
+  line-height: 21px !important;
+  margin-bottom: 5px !important;
+  font-weight: 400 !important;
+  font-size: 15.11px !important;
+  margin-top: 12px;
+  padding-left: 5px;
+  position: absolute;
+}
+
+.inputField {
+  margin-bottom: 10.57px !important;
+  position: relative;
+}
+
+.inputField>input {
+  background: #ffffff;
+  border: 1px #b2b7de solid;
+  border-radius: 4px;
+  min-height: 43.14px;
+  color: #000;
+  font-size: 18.13px;
+  padding: 11px 8px 11px 8px;
+  font-weight: 400;
+  width: 100%;
+}
+
+.inputField>button[type="submit"],
+.inputField>a {
+  cursor: pointer;
+  transition: all 0.8s ease 0s;
+  padding: 11px 8px 11px 8px;
+  border: none;
+  font-size: 15px;
+  border-radius: 4px;
+  font-weight: 400;
+  margin: -9px 0px 0px 0px;
+  border: none;
+  text-align: center;
+  display: block;
+}
+
+.inputField>button[type="submit"]:hover {
+  background: #7b83ca;
+  transition: all 0.3s ease 0s;
+}
+
+.inputField>label {
+  font-size: 18.3px;
+  color: #4d4d4d;
+  line-height: 21px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.inputField>input::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.1535px;
+  line-height: 21px;
+  color: rgba(115, 124, 195, 0.55);
+}
+
+.checkbox {
+  width: 17px !important;
+  height: 17px;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.btn-md-bg {
+  background: #254095;
+  color: #fff;
+}
+
+.btn-md-bg-back {
+  background: #ffffff;
+  color: #b2b7de;
+  border: 1px #b2b7de solid !important;
+}
+
+.eye-img {
+  position: absolute;
+  right: 12px;
+  margin-top: 15px;
+  width: 20px;
+  height: 20px;
+}
+
+
+.eyeChamgrpassword {
+  position: absolute;
+  right: 22px;
+  margin-top: 15px;
+  width: 20px;
+  height: 20px;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.btn-back-top {
+  background-image: linear-gradient(#8a92d6, #4f58a1);
+  color: #b2b7de;
+  border: 1px #b2b7de solid !important;
+  width: 85px;
+  height: 30px;
+  text-align: center;
+  border-radius: 30px;
+  margin: -40px 0px 30px 0px;
+}
+
+.btn-back-top a {
+  color: #fff;
+  font-family: "Roboto";
+}
+
+.backButton {
+  width: 90%;
+}
+
+.backButton a {
+  width: 45px;
+  height: 45px;
+  border: 1.07143px solid #ffffff;
+  background: linear-gradient(180deg, #a2a9e8 0%, #757dc5 100%);
+  box-shadow: 0px 4.28571px 4.28571px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+
+.backButton a img {
+  width: 17px;
+}
+
+.backButton a:hover {
+  cursor: pointer;
+  background: linear-gradient(180deg, #7e86ca 0%, #626bbb 100%);
+  box-shadow: 0px 7.28571px 7.28571px rgba(0, 0, 0, 0.1);
+  transition: 200ms ease-in-out;
+}
+
+.loginCard p {
+  width: 60%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .main-bg {
+    padding: 15px;
+    height: 100%;
+  }
+
+  .left-box {
+    padding: 15px;
+    text-align: center;
+    border-radius: 0px 0px 21px 21px;
+    height: 100%;
+  }
+
+  .right-box {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 15px 15px 15px 15px;
+    border-radius: 21px 21px 0px 0px;
+    height: 100%;
+  }
+}

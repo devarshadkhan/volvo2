@@ -1,0 +1,335 @@
+.wpms .card {
+  height: auto;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 30px 15px 20px 15px;
+}
+
+.wpms .blueBG {
+  background: #747dc4;
+  color: #fff;
+}
+
+.blueBG:hover {
+  background: #6771be;
+}
+
+.wpms .blueBG .heading {
+  color: #ffffff;
+  transition: 200ms ease;
+}
+
+.wpms .whitesmoke {
+  color: #6771be;
+  border: 1px solid #6771be;
+}
+
+.wpms .whitesmoke:hover {
+  background: rgb(248, 248, 248);
+  transition: 200ms ease;
+}
+
+.wpms .card .heading {
+  font-family: Inter;
+  font-size: 110.303px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 91px;
+  padding-left: 0px;
+}
+
+.wpms .card .cardinner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 1rem; */
+}
+
+.wpms .card .left {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  height: 100%;
+  /* gap: 1rem; */
+}
+
+.wpms .card .left p {
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  text-align: left;
+  font-weight: 500;
+  line-height: 34px;
+  padding-left: 20px;
+  margin: -7px 0px 0px 0px;
+}
+
+/* 141.667% */
+
+.wpms .card .left p,
+.wpms .card .left .heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wpms .card .left span {
+  display: block;
+  font-family: Inter;
+  font-size: 34.911px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 42.391px;
+  /* 121.429% */
+}
+
+.wpms .card .right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.wpms .card button {
+  border-radius: 8px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 13.863px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  color: #747dc4;
+  margin-top: -10px;
+}
+
+.wpms .whitesmoke .right button {
+  border: 1px solid #747dc4;
+  background: #fff;
+}
+
+.DetailsoCard {
+  margin: 0px;
+  padding: 0px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.DetailsoCard:hover {
+  cursor: pointer;
+  transition: 100ms ease-in;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.DetailsoCard h2 {
+  margin: 0px;
+  padding: 0px;
+  font-family: Inter;
+  font-size: 110px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.DetailsoCard h3 {
+  margin: 5px 0px 10px 0px;
+  padding: 0px;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.DetailsoCard h4 {
+  margin: 0px;
+  padding: 10px 0px;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.DetailsoCard p {
+  margin: 0px;
+  padding: 0px;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.blueBdr {
+  margin: 0px;
+  border: 1px #747dc4 solid;
+}
+
+.DetailsoCard .TextColorBlue {
+  color: #747dc4;
+}
+
+.GreenBdr {
+  margin: 0px;
+  border: 1px #4ebc92 solid;
+}
+
+.DetailsoCard .TextColorGreen {
+  color: #4ebc92;
+}
+
+.YellowBdr {
+  margin: 0px;
+  border: 1px #ffc200 solid;
+}
+
+.DetailsoCard .TextColorYellow {
+  color: #ffc200;
+}
+
+.DetailsoCard .TextColorBlack {
+  color: #1d242e;
+}
+
+.DetailsoCard .TextColorWhite {
+  color: #fff;
+}
+
+.DetailsoCard .TextBgGreen {
+  background: #4ebc92;
+  border-radius: 0px 0px 6px 6px;
+}
+
+.DetailsoCard .TextBgBlue {
+  background: #747dc4;
+  border-radius: 0px 0px 6px 6px;
+}
+
+.DetailsoCard .TextBgYellow {
+  background: #ffc200;
+  border-radius: 0px 0px 6px 6px;
+}
+
+.TdtextColorYellow {
+  color: #ffc200 !important;
+}
+
+.TdtextColorGreen {
+  color: #4ebc92 !important;
+}
+
+@media only screen and (max-width: 1400px) {
+  .wpms .card .heading {
+    font-family: Inter;
+    font-size: 74.303px;
+  }
+
+  .wpms .card .left span {
+    font-size: 25.911px;
+  }
+
+  .wpms .card .left p {
+    font-family: Inter;
+    font-size: 19px;
+    text-align: left;
+    font-weight: 500;
+    line-height: 16px;
+    padding-left: 10px;
+    margin-top: 5px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .DetailsoCard h2 {
+    font-size: 50px;
+  }
+
+  .DetailsoCard h3 {
+    font-size: 20px;
+  }
+
+  .DetailsoCard h4 {
+    font-size: 16px;
+  }
+
+  .Patient-heading {
+    display: flex;
+    justify-content: flex-start;
+    height: auto;
+    column-gap: 10px;
+    flex-direction: column;
+  }
+
+  .Patient-heading h2 {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.238px;
+    line-height: 21px;
+    margin: 10px 0px 0px 5px;
+  }
+
+  .mid-head h2 {
+    font-size: 15px;
+    margin: 10px 0px 0px 5px;
+  }
+
+  .mid-table table th {
+    background: #747dc4;
+    padding: 10px 15px;
+    font-family: "lato";
+    font-size: 15px;
+    color: #fff;
+    font-weight: 700;
+    border-right: 2px #fff solid;
+    white-space: nowrap;
+  }
+
+  .mid-table table td {
+    background: #fff;
+    padding: 10px 15px;
+    font-family: "lato";
+    font-size: 14px;
+    color: #414141;
+    font-weight: 400;
+    border: 1px #e8e8e8 solid;
+    margin: 0px;
+    line-height: 21.6px;
+    white-space: nowrap;
+  }
+
+  .wpms .card {
+    height: auto;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+  }
+
+  .wpms .card .heading {
+    font-family: Inter;
+    font-size: 60.303px;
+    padding-left: 0px;
+  }
+
+  .wpms .card .left span {
+    font-size: 20.911px;
+  }
+
+  .wpms .card .left p {
+    font-family: Inter;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 500;
+    line-height: 6px;
+    padding-left: 10px;
+    margin-top: 5px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .wpms .card button {
+    margin-top: 0px;
+  }
+}

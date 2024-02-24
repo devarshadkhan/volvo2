@@ -1,0 +1,159 @@
+.Modalwrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.24);
+}
+
+.ModalContainer {
+  position: absolute;
+  top: calc(50% - 40vh);
+  left: calc(25%);
+  width: 50%;
+  background: white;
+  height: 80vh;
+  overflow: auto;
+  border-radius: 15px;
+  padding: 25px;
+  animation: zoom-in 0.3s;
+}
+
+.ModalContainer .top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ModalContainer .top .heading h3 {
+  font-size: 20px;
+  color: #2b3582;
+  font-weight: 600;
+  padding: 0px 0px 0px 0px;
+  font-weight: 600;
+  font-family: "Lato";
+}
+
+.close-btn button {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  color: #fff;
+  padding: 5px;
+  background: #fafafa;
+  border: none;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.close-btn button:hover {
+  background: #f1f1f1;
+}
+
+.ModalAvtar {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px 0px 0px;
+  cursor: pointer;
+}
+
+.ModalAvtar img {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 120px;
+  height: 100px;
+}
+
+.Add-form-group {
+  margin-bottom: 10.57px !important;
+  position: relative;
+}
+
+.Add-form-group .input-control {
+  background: #ffffff;
+  border: 1px #b2b7de solid;
+  border-radius: 4px;
+  padding: 11px 10px;
+  color: #444d99;
+  width: 100%;
+  font-size: 18px;
+  font-family: "Inter";
+  height: 44.58px;
+}
+
+.Add-form-group label {
+  font-size: 16px;
+  font-family: "Inter";
+  color: #4d4d4d;
+  line-height: 21px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.Add-form-group .input-control::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: #737cc371;
+}
+
+.optionLabal {
+  font-size: 15px !important;
+  font-family: "Inter";
+  color: #4d4d4d;
+  line-height: 21px;
+  font-weight: 500 !important;
+  margin-bottom: 8px;
+  margin-left: 10px;
+}
+
+.acces-bdr {
+  border: 1px #ccc solid;
+  padding: 16px 0px 8px 17px;
+}
+
+.repear-col {
+  margin: 0px;
+}
+
+.aling-right {
+  text-align: right;
+}
+
+.btn-padd {
+  padding: 15px;
+}
+
+.big-btn-padd {
+  padding: 5px 30px;
+  margin: 10px 0px 0px 10px;
+}
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(0.8, 0.8);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ModalContainer {
+    width: 90%;
+    background: #f1f1f1;
+    height: 600px;
+    overflow: auto;
+    border-radius: 15px;
+    padding: 25px;
+    position: absolute;
+  }
+}

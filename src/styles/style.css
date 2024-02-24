@@ -1,0 +1,757 @@
+/*----------------------------------------------------*/
+body {
+  line-height: 26px;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #000;
+}
+
+.list {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+.doctor-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.aling-right {
+  text-align: right;
+  float: right;
+}
+
+.aling-right-btn {
+  text-align: right;
+}
+
+.aling-center-btn {
+  text-align: center;
+}
+
+.padd-0 {
+  padding: 0px !important;
+}
+
+.doctor-wrapper {
+  background: white;
+  overflow: auto;
+}
+
+.doctors {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #e4e4e4;
+  background: #fff;
+}
+
+.mid-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+}
+
+.mid-head h2 {
+  color: #2b3582;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.238px;
+  line-height: 21px;
+  margin: 10px 0px 0px 0px;
+}
+
+.btn-md {
+  cursor: pointer;
+  transition: all 0.8s ease 0s;
+  border: 1px #fff solid;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.btn-md-blue {
+  background: #747dc4;
+  color: #fff;
+  text-align: center;
+  font-size: 13.86px;
+  line-height: 16.78px;
+  font-weight: 600;
+  padding: 7px 10px;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  float: left;
+  margin-right: 10px;
+  border: none;
+  height: 34px;
+}
+
+.btn-md-blue:hover {
+  background: #000;
+}
+
+.btn-md-gray {
+  background: #fff;
+  color: #444d99;
+  text-align: center;
+  font-size: 13.86px;
+  line-height: 16.78px;
+  font-weight: 600;
+  padding: 13px 10px;
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  float: left;
+  margin-right: 10px;
+  border: #444d99 1px solid;
+}
+
+.btn-md-gray:hover {
+  background: #444d99;
+  color: #fff;
+}
+
+.btn-md-blue img {
+  margin-right: 5px;
+}
+
+.btn-small {
+  cursor: pointer;
+  transition: all 0.8s ease 0s;
+  border: none;
+  border-radius: 50%;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  font-size: 13.86px;
+  line-height: 16.78px;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-right: 5px;
+  height: 32px;
+  width: 32px;
+  padding: 5px;
+}
+
+.greenbg {
+  background-image: linear-gradient(#5ede82, #3a9c56);
+}
+
+.yellowbg {
+  background-image: linear-gradient(#ffc200, #ffc200);
+}
+
+.bluebg {
+  background-image: linear-gradient(#7680DE, #545EB3);
+}
+
+.redbg {
+  background-image: linear-gradient(#f36c6c, #d72a2a);
+}
+
+.btn-small:hover {
+  background-image: linear-gradient(#444d99, #444d99);
+}
+
+.eye-icon {
+  margin: -3px 0px 0px 1px;
+}
+
+.input-control {
+  background: #ffffff;
+  border: 1px #cdcdcd solid;
+  border-radius: 10px;
+  padding: 12px 12px;
+  color: #2b3582;
+  width: 100%;
+  font-size: 14px;
+  font-family: "Inter";
+}
+
+.input-control:has(option:checked:first-child) {
+  color: gray !important;
+
+}
+
+.input-control:has(option:checked:first-child) option {
+  color: #fff;
+  text-transform: none;
+}
+
+
+.input-control option {
+  font-size: 16px;
+  padding: 30px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 20px;
+  background: #646A94;
+  color: white;
+  outline: none;
+}
+
+.input-control::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: #969696;
+}
+
+.blue {
+  color: #6253d1 !important;
+}
+
+.pagination-col {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.pagination-col .lefttext p {
+  font-size: 16px;
+  color: #808080;
+}
+
+.pagination {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.pagination ul {
+  list-style: none outside none;
+}
+
+.pagination ul li {
+  float: left;
+  margin-left: 10px;
+}
+
+.pagination ul li a {
+  color: #444d99;
+  display: block;
+  float: left;
+  font-size: 16px;
+  line-height: 32px;
+  list-style: none outside none;
+  padding: 0px 0px 0 0px;
+  text-decoration: none;
+  font-weight: normal;
+  text-align: center;
+  width: 38px;
+  height: 35px;
+  border-radius: 4px;
+  border: 1px #444d99 solid !important;
+}
+
+.pagination ul li a:hover {
+  color: #fff;
+  text-decoration: none;
+  background: #444d99;
+}
+
+.pagination ul li a.active {
+  color: #fff;
+  text-decoration: none;
+  background: #444d99;
+}
+
+.pagination ul li img {
+  margin: 10px 6px;
+  cursor: pointer;
+}
+
+.cardhead {
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  background: white;
+  overflow: hidden;
+}
+
+.cardhead .Add-form-group {
+  padding: 1rem;
+}
+
+.cardhead>.heading {
+  background: #747dc4;
+  width: 100%;
+  padding: 5px 10px;
+}
+
+.cardhead>.heading h2 {
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.238px;
+  line-height: 21px;
+  color: white;
+  margin-top: 5px;
+}
+
+.cardhead .form-group {
+  padding-right: 1rem;
+}
+
+.leftbar {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+/* Tickets */
+.answers {
+  height: 500px;
+  max-height: 50vh;
+  overflow-y: auto;
+}
+
+.answer {
+  background: whitesmoke;
+  padding: 1rem;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+}
+
+
+
+
+
+
+.ticket-input {
+  background: #E3E5F3;
+  border: 0px #cdcdcd solid;
+  border-radius: 10px;
+  padding: 0px 1px;
+  color: #646A94;
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 600;
+  /* width: 95px; */
+}
+
+
+.ticket-input option {
+  background: #E3E5F3;
+  border: 0px #cdcdcd solid;
+  color: #646A94;
+
+}
+
+
+.ticketDate {
+  display: flex;
+  margin: 3px 0px 0px 0px;
+}
+
+.ticketDate input {
+  border-radius: 4.21px 4.214px 4.214px 4.21px;
+  border: 1px solid #747dc4;
+  background: #f1f4ff;
+  width: 48%;
+  font: 14px sans-serif;
+  padding: 0px 1px;
+  margin-top: 2px;
+}
+
+.ticketDate span {
+  margin: 5px 3px;
+}
+
+.add-Btn {
+  margin-top: 6px;
+  float: right;
+  white-space: nowrap;
+}
+
+.col-Padd {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+button,
+select {
+  text-transform: none;
+  outline: none;
+}
+
+.status-close {
+  color: #52C974 !important;
+}
+
+.status-open {
+  color: #FFC200 !important;
+}
+
+.status-pending {
+  color: #D72A2A !important;
+}
+
+.col-width {
+  max-width: 20%;
+}
+
+
+@media only screen and (max-width: 1250px) {
+  .col-width {
+    max-width: 100% !important;
+  }
+
+  .m-t-20 {
+    margin-top: 10px;
+  }
+
+  .add-Btn {
+    margin: 0px;
+
+    white-space: nowrap;
+    padding: 8px;
+    margin-top: 5px;
+    text-align: center;
+    display: inline;
+  }
+
+  .btn-md-blue {
+    background: #747dc4;
+    /* 
+     */
+  }
+
+  .col-Padd {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .ticketDate input {
+    border-radius: 4.21px 4.214px 4.214px 4.21px;
+    border: 1px solid #747dc4;
+    background: #f1f4ff;
+    width: 50%;
+    font: 12px sans-serif;
+    padding: 0px 1px;
+    margin-top: 5px;
+  }
+
+  .download-btn {
+    margin-top: 7px;
+  }
+}
+
+
+
+/* .add-Btn {
+  margin: 0px;
+  width: 100%;
+  white-space: nowrap;
+  padding: 8px;
+  margin-top: 12px;
+  text-align: center;
+  display: inline;
+} */
+
+.css-1fdsijx-ValueContainer {
+
+  font-size: 14px;
+}
+
+.css-1xc3v61-indicatorContainer {
+
+  color: gray !important;
+  padding: 4px !important;
+  width: 24px !important;
+}
+
+.css-1u9des2-indicatorSeparator {
+
+  display: none;
+}
+
+.css-13cymwt-control {
+
+  min-height: 46px !important;
+  outline: 0 !important;
+  position: relative;
+  -webkit-transition: all 100ms;
+  transition: all 100ms;
+  background-color: hsl(0, 0%, 100%);
+  border-color: #717A86 !important;
+  border-radius: 10px !important;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+}
+
+.css-t3ipsp-control {
+
+  min-height: 46px !important;
+  outline: 0 !important;
+  position: relative;
+  -webkit-transition: all 100ms;
+  transition: all 100ms;
+  background-color: hsl(0, 0%, 100%);
+  border-color: #717A86 !important;
+  border-radius: 10px !important;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+}
+
+/* .css-1nmdiq5-menu {
+  height: 130px;
+  overflow: auto;
+} */
+
+.css-16xfy0z-control {
+
+  min-height: 46px !important;
+  outline: 0 !important;
+  position: relative;
+  -webkit-transition: all 100ms;
+  transition: all 100ms;
+  background-color: hsl(0, 0%, 95%);
+  border-color: #717A86;
+  border-radius: 10px !important;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+}
+
+.css-1ydy8h1-control {
+  border-radius: 10px !important;
+}
+
+
+.bflex {
+  display: flex;
+}
+
+
+/* ........ticket Dashboard........ */
+
+.ticketBox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 90px;
+  border-radius: 20px;
+  padding: 0px 0px 0px 20px;
+  margin-top: 20px;
+}
+
+.ticketBox img {
+  margin: 0px 15px 0px 0px;
+  width: 55px;
+  height: 55px;
+}
+
+.ticketBox h2 {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 30.983px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0px 0px 0px 0px;
+}
+
+
+.ticketBox p {
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0px 0px 0px 0px;
+}
+
+.bg1 {
+  background: linear-gradient(90deg, #9474DD 1.13%, #B7A2E9 99.78%);
+}
+
+.bg1 p {
+  color: #E0D2FF;
+}
+
+.bg2 {
+  background: linear-gradient(90deg, #3960CB 1.13%, #3E91FA 99.78%);
+}
+
+.bg2 p {
+  color: #BFD9FA;
+}
+
+.bg3 {
+  background: linear-gradient(90deg, #F85F5F 1.13%, #FA8888 99.78%);
+}
+
+.bg3 p {
+  color: #FBD1D1;
+}
+
+.bg4 {
+  background: linear-gradient(90deg, #F79054 1.13%, #FFAD65 99.78%);
+}
+
+.bg4 p {
+  color: #FFE6D0;
+}
+
+.bg5 {
+  background: linear-gradient(90deg, #40D799 1.13%, #91DF6B 99.78%);
+}
+
+.bg5 p {
+  color: #DFFFD7;
+}
+
+.graph {
+  padding: 0px 0px 0px 0px;
+  margin: 20px 0px 0px 0px;
+}
+
+.graph img {
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+.graph .echarts-for-react {
+  background: #E8ECF1;
+  width: 100%;
+  border-radius: 0px 0px 10px 10px;
+  margin: auto;
+  padding-bottom: 10px;
+  width: 1000px !important;
+
+}
+
+.graphbg {
+  background: #E8ECF1;
+  width: 100%;
+  border-radius: 0px 0px 10px 10px;
+  margin: auto;
+  padding-bottom: 10px;
+
+
+}
+
+
+
+
+.graphBox {
+  border-radius: 10px 10px 0px 0px;
+  background: #E8ECF1;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+}
+
+.graphBox h2 {
+  color: #605F78;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  padding: auto;
+  margin: 0px;
+
+}
+
+.graphBox span {
+  padding: 0px 5px;
+  font-weight: 600;
+}
+
+
+.graphBoxRight {
+  border-radius: 10px 10px 0px 0px;
+  background: #E8ECF1;
+  padding: 20px 20px 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+}
+
+.graphBoxRight h2 {
+  color: #605F78;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  padding: auto;
+  margin: 0px;
+
+}
+
+.graphBoxRight span {
+  padding: 0px 5px;
+  font-weight: 600;
+}
+
+.graphPieChart {
+  background: #E8ECF1;
+  width: 100%;
+  border-radius: 0px 0px 10px 10px;
+  margin: auto;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+
+.graphBox .right input {
+  border-radius: 4.21px 4.214px 4.214px 4.21px;
+  border: 1px solid #747dc4;
+  background: #f1f4ff;
+  width: 120px;
+  font: 14px sans-serif;
+  padding: 5px 5px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 1024px) {
+  .btn-mar {
+    margin-top: 15px;
+
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .graphBox {
+    flex-direction: column;
+  }
+
+  .graphBox h2 {
+
+    padding-bottom: 10px;
+  }
+
+
+}
+
+/* ........ticket Dashboard End........ */

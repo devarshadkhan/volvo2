@@ -1,0 +1,45 @@
+<div className="answers col-md-12">
+<div className="answer">
+  <div className="replyer">
+    <p>
+      <span>Name</span> - Asif Imam
+    </p>
+    <p>
+      <span>Says &gt;</span> Yes, This is a brand new Question.
+    </p>
+    Role - Manager
+{userById.user?.answer?.length === 0 ? (
+  <div className="noData w-100 h-100 mt-3">
+    <h5 className="text-center text-muted">No Answer</h5>
+  </div>
+</div>
+) : (
+  userById.user?.answer?.map((a, i) => {
+    return (
+      <div className="answer" key={i}>
+        <div className="replyer">
+          <h5>
+            <strong>
+              {a.answerType === "agent"
+                ? a?.agentName
+                : a?.answerType === "tl"
+                ? a?.tlName
+                : a?.answerType === "manager"
+                ? a?.managerName
+                : ""}
+            </strong>
+          </h5>
+          <p>
+            <strong>Says </strong> {a.taskAnswer}
+          </p>
+          Role -{a?.agentName ? " Agent -" : ""}{" "}
+          <strong> {a?.agentName || ""}</strong>,{" "}
+          {a?.tlName ? "TL -" : ""}{" "}
+          <strong> {a?.tlName || ""}</strong>, Manager -{" "}
+          <strong>{a?.managerName || ""}</strong>
+        </div>
+      </div>
+    );
+  })
+)}
+</div>

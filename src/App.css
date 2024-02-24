@@ -1,0 +1,96 @@
+.error-msg {
+  color: red;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+label span {
+  color: red;
+}
+
+.wrapper {
+  display: flex;
+}
+
+#root {
+  background: white;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+ input:disabled,
+select:disabled {
+  border: 1px #b2b7de solid !important;
+  background-color: "whitesmoke" !important;
+} 
+
+label {
+  margin-bottom: 0 !important;
+}
+
+input:disabled + label {
+  margin-bottom: 0 !important;
+}
+
+/* monazir */
+
+.lefttext{width: 100%;}
+
+
+/* .flexing{flex-wrap: nowrap !important;} */
+
+.tteeaad{
+  /* height: 600px !important; */
+}
+
+
+.message-heading{
+  /* width: 7%; */
+  margin: 0 auto;
+}
+.message-heading::after{
+  content: "";
+}
+.message-heading p{
+  text-align: center;
+  font-size: 12px;
+  padding: 3px;
+  background: rgb(139, 137, 137);
+  margin: 0;
+  border-radius: 43px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+
+
+}
+.title-around-span {
+  position: relative;
+  text-align: center;
+  color: #49494d;
+  font-size: 14px;
+}
+/* .title-around-span:before {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  background-color: #e3e4ec;
+}
+.title-around-span span {
+  position: relative;
+  z-index: 1;
+  padding: 0 15px;
+  background: #ddd;
+  border-radius: 10px;
+} */
+
+.title-around-span span{
+  color: #000;
+  padding: 10px;
+  background: #ccc;
+  border-radius: 4px;
+}
