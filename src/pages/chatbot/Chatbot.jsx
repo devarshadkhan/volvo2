@@ -224,7 +224,6 @@ const [ modelOpen, setModelOpen] = useState(false)
         if(response.data.fileUrl){
             handleSendMessage()
             setModelOpen(false)
-          
           }
 
         } else {
