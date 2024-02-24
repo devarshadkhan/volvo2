@@ -220,11 +220,15 @@ const [ modelOpen, setModelOpen] = useState(false)
         if (response) {
           console.log('File uploaded successfully:', response);
           setFileData(response.data.fileUrl)
+
+          handleSendMessage()
+          setModelOpen(false)
+          // setFileData("")
           // Handle successful response (if needed)
-        if(response.data.fileUrl){
-            handleSendMessage()
-            setModelOpen(false)
-          }
+        // if(response.data.fileUrl){
+        //     handleSendMessage()
+        //     setModelOpen(false)
+        //   }
 
         } else {
           console.error('File upload failed:', response.statusText);
@@ -264,9 +268,13 @@ const [ modelOpen, setModelOpen] = useState(false)
         notify("Please enter a message before sending.", "error");
         return;
       }
+
+      // if(fileData){
+      //  setFileData("")
+      // }
       // const fileUrl = await uploadFile(viewImage);
       // const  fileUrl  = await formik.handleSubmit();
-      // console.log("dddddddddddddd",fileUrl);
+     
       const messageData = {
         senderId: senderId,
         receiverId: selectedUser.userId,

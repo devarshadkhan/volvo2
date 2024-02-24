@@ -605,7 +605,7 @@ const Messaging = ({
         </div>
 
         {/* <form className="chat-box" onSubmit={formik.handleSubmit}> */}
-        <form className="chat-box" >
+        <form className="chat-box" onSubmit={handleSendMessage}>
           <div className="">
             <div className="icon">
               {/* <NavLink>
@@ -700,7 +700,7 @@ const Messaging = ({
             <button
               type="submit"
               className="icon sendBtn"
-              onClick={handleSendMessage}
+              // onClick={handleSendMessage}
             >
               {/* <NavLink> */}
               {/* <i class="fa-solid fa-paper-plane"></i> */}
